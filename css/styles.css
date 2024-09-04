@@ -5,6 +5,33 @@ html {
     
 }
 
+.footer-bottom__elem--ds-logo {
+	margin-left: -10px;
+	padding-bottom: 69px;
+}
+
+@media (min-width: 576px) { /* Replace with the appropriate screen-sm-min value */
+	.footer-bottom__elem--ds-logo {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media (min-width: 992px) { /* Replace with the appropriate screen-lg-min value */
+	.footer-bottom__elem--ds-logo {
+		display: inline-block;
+	}
+}
+
+.footer-bottom__elem--ds-logo a {
+	transition: opacity .2s ease-in-out;
+}
+
+.footer-bottom__elem--ds-logo a:hover,
+.footer-bottom__elem--ds-logo a:active,
+.footer-bottom__elem--ds-logo a:focus {
+	opacity: .5;
+}
 
 .spinner {
   margin: 100px auto 0;
